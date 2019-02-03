@@ -1,11 +1,20 @@
 # Windows Substrate
 Windows process and memory hacking framework developed in C#
 
-#Installation
+# Installation
 1. Clone the repository and compile the DLL.
 2. Create a new C# console project and reference the WindowsSubstrate.dll.
 
-#Example Usage
+# Features
+Currently only 2 methods exist
+1. Change the title of a window with the "ChangeWindowTitle" method
+2. Get the base address of a process with "GetBaseAddress".
+
+# Notes
+Expect rapid development. Eventually this will become a full hacking framework for Windows.
+Please feel free to clone/send pull requests.
+
+# Example Usage
 
 ```using System;
 using System.Collections.Generic;
