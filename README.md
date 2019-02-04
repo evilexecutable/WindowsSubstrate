@@ -15,7 +15,7 @@ Expect rapid development. Eventually this will become a full hacking framework f
 Please feel free to clone/send pull requests.
 
 # Example Usage
-Get the base address of a process in Int format. Run it over ToString("X") to get the hex value.
+>Get the base address of a process in Int format. Run it over ToString("X") to get the hex value.
 
 ```using System;
 using System.Collections.Generic;
