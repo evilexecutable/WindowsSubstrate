@@ -1,6 +1,7 @@
+os: windows
 language: csharp
 mono:
-  - latest
+  - none
 dotnet: 4.6.1
 solution: WindowsSubstrate.sln
 script:
