@@ -1,7 +1,7 @@
 os: windows
 language: csharp
 mono:
-  - 4.4
+  - latest
 solution: WindowsSubstrate.sln
 script:
  - dotnet restore
