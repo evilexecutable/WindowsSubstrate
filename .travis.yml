@@ -1,0 +1,7 @@
+language: csharp
+mono:
+  - latest
+dotnet: 4.6.1
+solution: WindowsSubstrate.sln
+script:
+ - dotnet restore
