@@ -15,6 +15,27 @@ Expect rapid development. Eventually this will become a full hacking framework f
 Please feel free to clone/send pull requests.
 
 # Example Usage
+>Change Window title.
+```using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WindowsSubstrate;
+
+namespace SubstrateProcessPrinter
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var Hack = new Substrate();
+            Hack.ChangeWindowTitle("notepad", "This is my notepad!");
+            Console.Read();
+        }
+    }
+}```
+
 >Get the base address of a process in Int format. Run it over ToString("X") to get the hex value.
 
 ```using System;
