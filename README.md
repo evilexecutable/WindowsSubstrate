@@ -35,6 +35,11 @@ namespace SubstrateProcessPrinter
         }
     }
 }
+```
+
+
+
+
 
 >Get the base address of a process in Int format. Run it over ToString("X") to get the hex value.
 
